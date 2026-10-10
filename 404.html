@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page not found</title>
+  <meta name="robots" content="noindex" />
+  <style>body{font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:#f4f3e6;color:#24331f;margin:0;display:grid;place-items:center;min-height:100vh;text-align:center;padding:1.5rem;box-sizing:border-box}a{color:#3f5a3a;font-weight:600}</style>
+  <script>
+    // Deep links into the old Pure Prep addresses (e.g. /pure-prep/privacy.html) go to app.pureprep.app too.
+    if (/^\/pure-prep(-redesign)?(\/|$)/.test(location.pathname)) {
+      var s = document.createElement("script"); s.src = "/pp-move.js"; document.head.appendChild(s);
+    }
+  </script>
+</head>
+<body>
+  <main>
+    <h1>Page not found</h1>
+    <p>Looking for Pure Prep? It has moved to <a href="https://app.pureprep.app/">app.pureprep.app</a>.</p>
+  </main>
+</body>
+</html>
